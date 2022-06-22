@@ -108,7 +108,6 @@ This is **bold** text
 
 ```markdown
 ---
-
 ---
 ```
 
