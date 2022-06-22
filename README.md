@@ -1,251 +1,319 @@
-# *Headings*
+# _Headings_
+
 <!-- Headings -->
 
->Raw:
+> Raw:
+
 ```markdown
 # Heading 1
+
 ## Heading 2
+
 ### Heading 3
+
 #### Heading 4
+
 ##### Heading 5
+
 ###### Heading 6
 ```
 
->Rendered:  
+> Rendered:
 
 # Heading 1
+
 ## Heading 2
+
 ### Heading 3
+
 #### Heading 4
+
 ##### Heading 5
+
 ###### Heading 6
+
 ---
-# *Emphasis*
+
+# _Emphasis_
+
 <!-- Text Emphasis -->
 
->Raw:
+> Raw:
+
 ```markdown
-This is **bold** text 
+This is **bold** text
 
-This is *Itallic* text 
+This is _Itallic_ text
 
-This is ***Itallic & Bold*** text 
+This is **_Itallic & Bold_** text
 
 This is ~~Striked Text~~ text
 
 This is **bold** text
 ```
 
->Rendered:  
+> Rendered:
 
 <!-- Bold text -->
-This is **bold** text 
+
+This is **bold** text
+
 <!-- Italic text -->
-This is *Itallic* text 
+
+This is _Itallic_ text
+
 <!-- Italic & Bold text -->
-This is ***Itallic & Bold*** text 
+
+This is **_Itallic & Bold_** text
+
 <!-- Striked text -->
+
 This is ~~Striked Text~~ text
+
 <!-- Bold text -->
+
 This is **bold** text
 
 ---
-# *Block Quote*
+
+# _Block Quote_
+
 <!-- Block quote -->
 
->Raw:  
+> Raw:
+
 ```markdown
 > This is a quote.
->> This is a nested quote.
+>
+> > This is a nested quote.
 
 > This is the second line of the quote.
 ```
 
->Rendered: 
+> Rendered:
 
 > This is a quote.
->> This is a nested quote.  
+>
+> > This is a nested quote.
 
 > This is the second line of the quote.
+
 ---
-# *Horizontal Rule*
+
+# _Horizontal Rule_
+
 <!-- Horizontal rule -->
 
->Raw:  
+> Raw:
+
 ```markdown
 ---
-___
-```
-
->Rendered:
 
 ---
-___
-# *Comments*
+```
+
+> Rendered:
+
+---
+
+---
+
+# _Comments_
+
 <!-- Comments -->
 
->Raw:  
+> Raw:
+
 ```markdown
 <!-- This is a comment -->
 ```
 
->Rendered:  
+> Rendered:
 
-*Comments are not visisble when rendered.*
+_Comments are not visisble when rendered._
+
 <!-- This is a comment -->
 
 ---
-# *Lists*
+
+# _Lists_
+
 <!-- Lists -->
 
-### *Unordered list*
+### _Unordered list_
+
 <!-- Unordered list -->
 
->Raw:  
+> Raw:
+
 ```markdown
-* Item 1  
-* Item 2  
-    * This item is nested
-* Item 3
+-   Item 1
+-   Item 2
+    -   This item is nested
+-   Item 3
 ```
 
->Rendered:  
+> Rendered:
 
-* Item 1  
-* Item 2  
-    * This item is nested
-* Item 3
+-   Item 1
+-   Item 2
+    -   This item is nested
+-   Item 3
 
-### *Ordered list*  
+### _Ordered list_
+
 <!-- Ordered list -->
 
->Raw:  
+> Raw:
+
 ```markdown
-1. Item 1  
-2. Item 2  
+1. Item 1
+2. Item 2
     1. This item is nested.
 3. Item 3
 ```
 
->Rendered:  
+> Rendered:
 
-1. Item 1  
-2. Item 2  
+1. Item 1
+2. Item 2
     1. This item is nested.
 3. Item 3
 
 ---
-# *Code*
+
+# _Code_
+
 <!-- Code -->
 
-### *Python*
+### _Python_
+
 <!-- Python Code -->
 
->Raw:  
-```markdown
+> Raw:
+
+````markdown
     ```python
         def sum(a,b):
             return a+b
     ```
-```
+````
 
->Rendered:  
+> Rendered:
 
 ```python
     def sum(a,b):
         return a+b
 ```
-### *Bash*
+
+### _Bash_
+
 <!-- Bash Script -->
 
->Raw:  
-```markdown
+> Raw:
+
+````markdown
     ```bash
     git commit -am "Initial commit."
     ```
-```
+````
 
->Rendered:  
+> Rendered:
 
 ```bash
     git commit -am "Initial commit."
 ```
 
 ---
-# *Links & Images*
-### *Link*
+
+# _Links & Images_
+
+### _Link_
+
 <!-- Link -->
 
->Raw:  
+> Raw:
+
 ```markdown
-[This is a link](https://twitter.com/Durgesh_B_G)  
+[This is a link](https://twitter.com/Durgesh_B_G)
 ```
 
->Rendered:  
+> Rendered:
 
-[This is a link](https://twitter.com/Durgesh_B_G)  
+[This is a link](https://twitter.com/Durgesh_B_G)
 
-### *Image*
+### _Image_
+
 <!-- Image -->
 
->Raw:  
+> Raw:
+
 ```markdown
 ![Alternate Text](./sample.png)
 ```
 
->Rendered:  
+> Rendered:
 
 ![Alternate Text](./sample.png)
 
 ---
-# *Table*
+
+# _Table_
+
 <!-- Table -->
 
->Raw:  
+> Raw:
+
 ```markdown
-| Header 1 | Header 2 | Header 3 |  
-| --- | --- | --- |  
-| Item 1 | Item 2 | Item 3 |  
-| Item 4 | Item 5 | Item 6 |  
-| Item 7 | Item 8 | Item 9 |  
+| Header 1 | Header 2 | Header 3 |
+| -------- | -------- | -------- |
+| Item 1   | Item 2   | Item 3   |
+| Item 4   | Item 5   | Item 6   |
+| Item 7   | Item 8   | Item 9   |
 ```
 
->Rendered:  
+> Rendered:
 
-| Header 1 | Header 2 | Header 3 |  
-| --- | --- | --- |  
-| Item 1 | Item 2 | Item 3 |  
-| Item 4 | Item 5 | Item 6 |  
-| Item 7 | Item 8 | Item 9 |  
+| Header 1 | Header 2 | Header 3 |
+| -------- | -------- | -------- |
+| Item 1   | Item 2   | Item 3   |
+| Item 4   | Item 5   | Item 6   |
+| Item 7   | Item 8   | Item 9   |
 
 ---
-# *Task List*
+
+# _Task List_
+
 <!-- Task List -->
 
->Raw:
+> Raw:
+
 ```markdown
-- [x] Task 1
-- [x] Task 2
-- [ ] Task 3
-- [x] Task 4
-- [ ] Task 5
-- [ ] Task 6
+-   [x] Task 1
+-   [x] Task 2
+-   [ ] Task 3
+-   [x] Task 4
+-   [ ] Task 5
+-   [ ] Task 6
 ```
 
->Rendered:  
+> Rendered:
 
-- [x] Task 1
-- [x] Task 2
-- [ ] Task 3
-- [x] Task 4
-- [ ] Task 5
-- [ ] Task 6
+-   [x] Task 1
+-   [x] Task 2
+-   [ ] Task 3
+-   [x] Task 4
+-   [ ] Task 5
+-   [ ] Task 6
 
 ---
-# *Heading IDs*
+
+# _Heading IDs_
+
 <!-- Linking headers in a same page -->
 
->Raw:
+> Raw:
+
 ```markdown
 [Headings](#headings)  
 [Emphasis](#emphasis)  
@@ -254,12 +322,12 @@ ___
 [Comments](#comments)  
 [Lists](#lists)  
 [Code](#code)  
-[Links & Images](#links--images)   
+[Links & Images](#links--images)  
 [Table](#table)  
-[Task List](#task-list)  
+[Task List](#task-list)
 ```
 
->Rendered:  
+> Rendered:
 
 [Headings](#headings)  
 [Emphasis](#emphasis)  
@@ -268,7 +336,6 @@ ___
 [Comments](#comments)  
 [Lists](#lists)  
 [Code](#code)  
-[Links & Images](#links--images)   
+[Links & Images](#links--images)  
 [Table](#table)  
-[Task List](#task-list)  
-
+[Task List](#task-list)
