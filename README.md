@@ -49,7 +49,6 @@ This is **_Itallic & Bold_** text
 
 This is ~~Striked Text~~ text
 
-This is **bold** text
 ```
 
 > Rendered:
@@ -70,9 +69,6 @@ This is **_Itallic & Bold_** text
 
 This is ~~Striked Text~~ text
 
-<!-- Bold text -->
-
-This is **bold** text
 
 ---
 
